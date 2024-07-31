@@ -1,12 +1,14 @@
-package title;
+package swd;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class VerifyTitle 
 {
 
+	@Test(priority=1)
 	public static void main(String[] args) 
 	{
 
